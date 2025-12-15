@@ -65,6 +65,58 @@ const projects = [
     coverColor: "#8B5A2B",
     spineColor: "#6B4423",
   },
+  {
+    title: "Literary Archive",
+    author: "Various Authors",
+    url: "https://gbfinal.onrender.com/",
+    description:
+      "A comprehensive literary archive featuring timeless classics including The Color Purple, The Road Not Taken by Robert Frost, and Homer's Iliad.",
+    members: [
+      "Sarah Abane",
+      "Elaine Bertiz",
+      "Richard Bilan",
+      "Annika Cipriano",
+      "Lord Zaro Fiber Quitanilla",
+    ],
+    coverColor: "#6B4E71",
+    spineColor: "#523A5C",
+  },
+  {
+    title: "Phaedra",
+    author: "Seneca",
+    url: "https://hempers.github.io/phaedra-blog/",
+    description:
+      "A powerful exploration of forbidden desire and tragic fate in this timeless Roman tragedy of passion and consequence.",
+    members: ["Mae Anne Bongat"],
+    coverColor: "#8B2635",
+    spineColor: "#6B1829",
+  },
+  {
+    title: "Don Quixote Quest",
+    author: "Miguel de Cervantes",
+    url: "https://don-quixote-quest.netlify.app/",
+    description:
+      "An immersive journey through the adventures of the idealistic knight-errant and his loyal squire Sancho Panza.",
+    members: ["Valerie Joyce Soreda", "Grace Ann Lladone"],
+    coverColor: "#C17817",
+    spineColor: "#9A5E12",
+  },
+  {
+    title: "Phaedra",
+    author: "Seneca",
+    url: "https://phaedra.vercel.app/",
+    description:
+      "A dramatic retelling of the tragic tale of love, betrayal, and destiny that has captivated audiences for centuries.",
+    members: [
+      "Jethro Owen Acuna",
+      "Jella Marie Caceres",
+      "Michael Lonceras",
+      "Christopher James Sayson",
+      "John Russel Soreda",
+    ],
+    coverColor: "#7B3F61",
+    spineColor: "#5F2E4A",
+  },
 ];
 
 export default function Home() {
@@ -157,7 +209,7 @@ export default function Home() {
           {/* Course badge */}
           <div className="inline-flex items-center justify-center p-2 md:p-3 mb-8 md:mb-10 rounded-full bg-gradient-to-r from-[rgba(184,134,11,0.05)] to-[rgba(212,164,116,0.05)] border border-[rgba(212,164,116,0.2)]">
             <span className="px-4 py-2 md:px-6 md:py-2.5 text-[10px] md:text-xs font-bold tracking-[0.25em] text-[var(--foreground)] uppercase">
-              GEC 21 · Literary Compilations
+              GEC 21 · Great Books
             </span>
           </div>
 
@@ -169,7 +221,7 @@ export default function Home() {
             <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light text-[var(--text-muted)] mb-2 md:mb-4">
               BSIT 4C
             </span>
-            <span className="italic text-gold-gradient block">Great Books</span>
+            <span className="italic text-gold-gradient block">Literary Compilations</span>
           </h1>
 
           {/* Decorative separator */}
