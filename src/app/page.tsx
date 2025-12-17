@@ -117,6 +117,36 @@ const projects = [
     coverColor: "#7B3F61",
     spineColor: "#5F2E4A",
   },
+  {
+    title: "The Knight's Quest",
+    author: "Miguel de Cervantes",
+    url: "https://qwynth.github.io/precious.github.io/",
+    description:
+      "An epic adventure following the idealistic knight Don Quixote in his quest for chivalry, honor, and timeless glory.",
+    members: ["Precious Gwynth Mallo"],
+    coverColor: "#4A7C8E",
+    spineColor: "#356173",
+  },
+  {
+    title: "The Iliad",
+    author: "Homer",
+    url: "https://laizaaaaa.github.io/Iliad_Website/",
+    description:
+      "Homer's timeless epic of war, honor, and destiny chronicling the legendary Trojan War and its heroic warriors.",
+    members: ["Ken Anne Acosta", "Laiza Barias"],
+    coverColor: "#A04B2B",
+    spineColor: "#7D3620",
+  },
+  {
+    title: "Annabel Lee Archive",
+    author: "Edgar Allan Poe",
+    url: "https://sleepy-j.github.io/annabel-lee-archive/",
+    description:
+      "A sepulchral archive dedicated to Poe's haunting poem of love and loss that transcends even death itself.",
+    members: ["Jay Balane", "Fredrick Depante", "Ken Tominaga"],
+    coverColor: "#2E3A52",
+    spineColor: "#1F2838",
+  },
 ];
 
 export default function Home() {
